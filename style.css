@@ -1,0 +1,118 @@
+/*set background image of body*/
+
+body {
+    min-height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('copy-1.jpg');
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+
+/*define a new font :) */
+
+@font-face {
+    font-family: starJedi;
+    src: url(Starjedi.ttf);
+}
+
+
+/*set a transparent background for content*/
+
+.container {
+    background-color: rgba(150, 159, 236, 0.418);
+    visibility: visible;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    border-radius: 0.7in;
+}
+
+
+/*define header's style*/
+
+h1 {
+    color: rgb(246, 250, 4);
+    font-family: starJedi;
+    text-align: center;
+}
+
+
+/*names of movies(or starships in starship pages) are bolder and in specific font and size this style define them*/
+
+.movietitle {
+    font-family: cursive;
+    font-size: 6mm;
+    font-weight: bold;
+}
+
+
+/*this style is not just for episode and date but all information expect movietitle or starship title follow this style*/
+
+.episodeAndDate {
+    font-family: cursive;
+    font-size: 4mm;
+}
+
+
+/*define style of starship button on movie list  */
+
+.mybutton {
+    color: rgb(0, 0, 0);
+    font-family: starJedi;
+    font-size: 4mm;
+    text-align: center;
+    background-color: rgb(238, 13, 13);
+    border: none;
+    border-radius: 0.7in;
+    padding: 10px 25px;
+    margin-right: 4%;
+    float: right;
+    font-weight: 200;
+    margin-top: 1.2%;
+}
+
+
+/*define style of home and all other buttons in bottomn of pages in starship pages*/
+
+.home {
+    color: rgb(0, 0, 0);
+    font-family: starJedi;
+    font-size: 4mm;
+    text-align: center;
+    background-color: rgb(238, 13, 13);
+    border: none;
+    border-radius: 0.7in;
+    padding: 10px 25px;
+    font-weight: 200;
+    margin: +3px -40px;
+    position: relative;
+    top: 0%;
+    left: 39%;
+    margin-left: 1mm;
+    margin-right: 1mm;
+}
+
+
+/*a div for buttons of home and pages of star ships that place at bottmn of pages*/
+
+#buttonDiv {
+    position: fixed;
+    bottom: 5mm;
+    width: 89%;
+    margin-right: 5%;
+    margin-left: 5%;
+    /*background-color: rgba(150, 159, 236, 0.418);*/
+}
+
+
+/*a div that contain every starship title and it's information*/
+
+.starship_div {
+    line-height: 2mm;
+}
